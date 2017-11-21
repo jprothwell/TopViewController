@@ -49,3 +49,8 @@ UIViewController * TopViewController(void)
     UIViewController *rootVC = _KeyWindow().rootViewController;
     return _TopVisibleViewController(rootVC);
 }
+
+UIViewController * RootViewController(void)
+{
+    return _KeyWindow().rootViewController;
+}

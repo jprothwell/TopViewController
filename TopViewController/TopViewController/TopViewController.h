@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 UIViewController * TopViewController(void);
+
+UIViewController * RootViewController(void);
