@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "TopViewController"
+  s.name         = "TopUIViewController"
   s.version      = "1.0.0"
   s.summary      = "Find TopViewController."
   s.description  = "quickly find topviewcontroller"
