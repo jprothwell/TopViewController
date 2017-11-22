@@ -31,7 +31,6 @@ UIViewController* _TopVisibleViewController(UIViewController* vc)
         UINavigationController *navigationController = (UINavigationController *)vc;
         return _TopVisibleViewController(navigationController.visibleViewController);
     }
-    
     else if (vc.presentedViewController)
     {
         return _TopVisibleViewController(vc.presentedViewController);
